@@ -44,12 +44,12 @@ RRT, RRT*, Dubins, RRT-Dubins
   4.4 있다면 트리 재구성 (rewiring) 진행  
 
 ### Result
-![스크린샷, 2021-10-20 19-00-39](https://user-images.githubusercontent.com/67509269/138074709-1901acb9-1687-443f-8d66-4fe2322ff0a4.png)
-![스크린샷, 2021-10-20 19-00-46](https://user-images.githubusercontent.com/67509269/138074714-0eb8517d-4609-4a2f-a957-82fe5b478141.png)
+![스크린샷, 2021-10-20 19-30-20](https://user-images.githubusercontent.com/67509269/138077384-5b523536-3056-4a5e-8d7c-c696f4790c0b.png)
+![스크린샷, 2021-10-20 19-30-31](https://user-images.githubusercontent.com/67509269/138077389-67b329f7-ab9f-462e-bd4f-59c2ff8715ac.png)
 
 - RRT(왼쪽)과 RRT*(오른쪽)을 비교했을 때, 좀 더 효율적으로 연결
-    - RRT  : 141 -> 362
-    - RRT* : 399 -> 362
+    - RRT  : 106 -> 141 -> 362
+    - RRT* : 312 -> 399 -> 362
 
 ## Dubins path
 ### Dubins path
@@ -76,5 +76,7 @@ RRT, RRT*, Dubins, RRT-Dubins
   - 새로운 노드와 Nearest 노드를 이어주는 부분에서 Dubin 반영
 
 ### Result
+![스크린샷, 2021-10-20 19-24-06](https://user-images.githubusercontent.com/67509269/138077359-bf627852-f2e9-4e79-946c-219adcdcc16b.png)
+![스크린샷, 2021-10-20 19-24-50](https://user-images.githubusercontent.com/67509269/138077365-fa9cd47b-04ce-4b65-ba01-ee9858f630e6.png)
 
-- RRT처럼 경로를 탐색하면서 Dubins path의 형태로 탐색한 것을 알 수 있음ㄴ
+- RRT처럼 경로를 탐색하면서 Dubins path의 형태로 탐색한 것을 알 수 있음
