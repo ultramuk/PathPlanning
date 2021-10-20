@@ -61,3 +61,20 @@ RRT, RRT*, Dubins, RRT-Dubins
 
 ### Result
 ![스크린샷, 2021-10-20 19-09-49](https://user-images.githubusercontent.com/67509269/138074904-36bd82cd-658b-469d-8082-412d98e30631.png)
+
+## RRT dubins
+### RRT and Dubins
+- RRT
+  - 현재 위치에서 목적지까지 도달하는 경로 생성
+  - 생성된 경로는 장애물과 충돌하지 않음 (Collision-free)
+
+- Dubins
+  - 현재 위치에서 목적지까지 도달하는 경로 생성
+  - 생성된 경로는 차량이 조향으로 따라갈 수 없음 (Feasible Path)
+
+- RRT and Dubins
+  - 새로운 노드와 Nearest 노드를 이어주는 부분에서 Dubin 반영
+
+### Result
+
+- RRT처럼 경로를 탐색하면서 Dubins path의 형태로 탐색한 것을 알 수 있음ㄴ
