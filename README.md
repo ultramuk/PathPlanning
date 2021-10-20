@@ -1,12 +1,10 @@
 # PathPlanning
-RRT, RRT*, Dubins, RRT-Dubins
+- 알고리즘 목표
+  - 시작점으로부터 목적지까지 도달하는 경로 생성
 
 ## RRT Algorithm
 ### RRT
 - Rapidly exploring random tree
-
-### 알고리즘 목표
-- 시작점으로부터 목적지까지 도달하는 경로 생성
 
 ### Pseudocode
 ![스크린샷, 2021-10-20 18-49-30](https://user-images.githubusercontent.com/67509269/138074523-8acd360e-0493-4698-882e-d43d00be7382.png)
